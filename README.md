@@ -24,7 +24,7 @@ API_ENDPOINT = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/
 
 ## Files in the Repository
 
-- [Code Notebook](assessment.ipynb): Jupyter Notebook containing the code for data collection, analysis, and visualization.
+- [Code Notebook](analysis.ipynb): Jupyter Notebook containing the code for data collection, analysis, and visualization.
 - [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv): The cleaned dataset of rare disease articles provided by the professor.
 - [data/rare-disease_monthly_mobile_201507-202409.json](data/rare-disease_monthly_mobile_201507-202409.json): JSON file with monthly mobile pageviews (combined mobile-app and mobile-web) for rare disease articles.
 - [data/rare-disease_monthly_desktop_201507-202409.json](data/rare-disease_monthly_desktop_201507-202409.json): JSON file with monthly desktop pageviews for rare disease articles.
@@ -64,10 +64,10 @@ pip install json urllib tqdm pandas matplotlib requests
 ```
 
 3. Data Collection: 
-The data is collected using the Wikimedia Analytics Pageviews API. You can run the provided code in `assessment.ipynb` to fetch data for each article and save it into JSON files.
+The data is collected using the Wikimedia Analytics Pageviews API. You can run the provided code in `analysis.ipynb` to fetch data for each article and save it into JSON files.
 
 4. Run the Jupyter Notebook:
-Open and run `assessment.ipynb`  in a Jupyter environment to execute the analysis and generate the visualizations.
+Open and run `analysis.ipynb`  in a Jupyter environment to execute the analysis and generate the visualizations.
 
 ## Analysis and Visualizations
 The analysis includes the following visualizations:
