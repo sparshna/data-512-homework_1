@@ -29,9 +29,9 @@ API_ENDPOINT = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/
 - [data/rare-disease_monthly_mobile_201507-202409.json](data/rare-disease_monthly_mobile_201507-202409.json): JSON file with monthly mobile pageviews (combined mobile-app and mobile-web) for rare disease articles.
 - [data/rare-disease_monthly_desktop_201507-202409.json](data/rare-disease_monthly_desktop_201507-202409.json): JSON file with monthly desktop pageviews for rare disease articles.
 - [data/rare-disease_monthly_cumulative_201507-202409.json](data/rare-disease_monthly_cumulative_201507-202409.json): JSON file with cumulative monthly pageviews (desktop + mobile) for rare disease articles.
-- [max_min_avg_pageviews.png](max_min_avg_pageviews.png): Graph showing the maximum and minimum average pageviews for both mobile and desktop access.
-- [top_10_peak_pageviews.png](top_10_peak_pageviews.png): Graph showing the top 10 articles by peak pageviews for both desktop and mobile access.
-- [fewest_months_pageviews.png](fewest_months_pageviews.png): Graph showing the articles with the fewest months of available data for both desktop and mobile access.
+- [max_min_avg_views.png](max_min_avg_views.png): Graph showing the maximum and minimum average pageviews for both mobile and desktop access.
+- [top_10_peak_views.png](top_10_peak_views.png): Graph showing the top 10 articles by peak pageviews for both desktop and mobile access.
+- [least_10_total_months.png](least_10_total_months.png): Graph showing the articles with the fewest months of available data for both desktop and mobile access.
 - [README.md](README.md): This file, providing an overview of the project and its contents.
 - [LICENSE](LICENSE): MIT License for the project code.
 
